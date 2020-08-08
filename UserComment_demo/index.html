@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>React用户评论</title>
+		<link rel="stylesheet" href="./css/index.css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<!-- 头部区域 start-->
+			<div class="header">
+				<header>
+					<h1>请发表对React的评论</h1>
+				</header>
+			</div>
+			<!-- 头部区域 end -->
+			<!-- 内容区域 start -->
+			<div class="content">
+				<!-- 提交内容 start -->
+				<div class="submit">
+					<form method="post">
+						<div class="submit_top">
+							<label>用户名:</label>
+							<input type="text" name="username" />
+						</div>
+						<div class="submit_bottom">
+							<label>评论内容:</label>
+							<textarea name="comment"></textarea>
+						</div>
+						<button>提交</button>
+					</form>
+				</div>
+				<!-- 提交内容 end -->
+				<!-- 评论列表 start -->
+				<div class="com_list">
+					<div class="contain current">
+						<h1>当前评论区暂无内容</h1>
+					</div>
+					<div class="contain_list">
+						<h2>评论回复:</h2>
+						<ul>
+							<li>
+								<h2>Tom说:</h2>
+								<p>ReactJS好难啊</p>
+								<a href="javascript:;">删除</a>
+							</li>
+							<li>
+								<h2>Tom说:</h2>
+								<p>ReactJS好难啊</p>
+								<a href="javascript:;">删除</a>
+							</li>
+							<li>
+								<h2>Tom说:</h2>
+								<p>ReactJS好难啊</p>
+								<a href="javascript:;">删除</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- 评论列表 end -->
+			</div>
+			<!-- 内容区域 end -->
+		</div>
+	</body>
+</html>
